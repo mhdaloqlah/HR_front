@@ -1,0 +1,40 @@
+
+  .slider-thumb {
+    height: 15px;
+    width: 15px;
+    top: -5px;
+    background-color: #FF9030;
+    cursor: grab;
+    border-radius: 50%;
+   
+  }
+  
+  .slider-track {
+    background-color: #ddd;
+    height: 5px;
+  }
+  .shown {
+    background-color: #ddd;
+    opacity: 0 !important;
+  }
+ /* Container for positioning */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Custom checkbox style */
+.custom-checkbox {
+  width: 20px; /* Adjust size */
+  height:20px;
+ 
+  cursor: pointer;
+  accent-color: #fb9537 /* Change color to match your design */
+}
+
+/* Style for label text */
+.checkbox-label {
+  font-size: 12px; /* Adjust as needed */
+  color: #949393; /* Adjust to match your design */
+ 
+}
